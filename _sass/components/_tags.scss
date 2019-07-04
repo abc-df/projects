@@ -1,27 +1,24 @@
-/*------------------------------------*\
-  Components > Tags
-\*------------------------------------*/
-
-.c-tags {
-  a {
-    display: inline-block;
-    padding: quarter($base-spacing-unit) $base-spacing-unit;
-    margin: 0 half($base-spacing-unit) quarter($base-spacing-unit) 0;
-
-    font-size: $font-size-tiny;
-    font-family: $font-base;
-    line-height: $line-height-medium;
-
-    background-color: $bg-color-gray;
-    transition: $global-transition;
-
-    @include attention() {
-      text-decoration: none;
-      background-color: $bg-color-gray;
+.site-tags {
+  .tag-button {
+    @include clickable($text-color-3, $main-color-3, default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+    & > .tag-button__count {
+      display: inline-block;
+      margin-left: map-get($spacers, 1);
+      font-size: map-get($base, font-size-xs);
+      line-height: 1;
+      vertical-align: top;
     }
   }
-
-  @include mq($until: tablet) {
-    margin-bottom: $line-height-medium - half(quarter($line-height-medium));
+  .tag-button-1 {
+    @include clickable($text-color-1, rgba($main-color-1, .4), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+  }
+  .tag-button-2 {
+    @include clickable($text-color-1, rgba($main-color-1, .55), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+  }
+  .tag-button-3 {
+    @include clickable($text-color-1, rgba($main-color-1, .7), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+  }
+  .tag-button-4 {
+    @include clickable($text-color-1, rgba($main-color-1, .9), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
   }
 }
