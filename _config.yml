@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : chenfh5
+title   : tongDeJa
 description: > # this means to ignore newlines until "Language & timezone"
-  chenfh5 blog
+  tongDeJa blog
 
 
 ## => Language and Timezone
@@ -35,15 +35,14 @@ timezone: Asia/Shanghai
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : chenfh5
-  email     : chenfh5@qq.com
-  github    : chenfh5
+  name      : tongDeJa
+  email     : 
+  github    : tongDeJa
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: chenfh5/chenfh5.github.io
-repository_tree: master
+repository: longdeja.github.io/c
 
 
 ## => Paths
